@@ -34,3 +34,5 @@ describe Person do
 	end
 
 end
+
+#add money function

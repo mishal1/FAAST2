@@ -13,6 +13,7 @@ it should:
 - move out of the station
 - move onto a train
 - move off a train
+
 optional:
 - be able to add money to their oyster
 - require a £2 GBP minimum to get into the station
