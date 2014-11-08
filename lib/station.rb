@@ -8,7 +8,6 @@ class Station
 		@trains =[]
 	end
 
-
 	def hold(person)
 		@people << person
 	end
@@ -24,5 +23,5 @@ class Station
 	def release_a_train(a_train)
 		trains.delete(a_train)
 	end
-
+	
 end

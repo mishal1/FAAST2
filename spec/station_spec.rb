@@ -3,8 +3,8 @@ require 'station'
 describe Station do
 
 let(:person)  {double :person}
-let(:station) {Station.new}
-let(:a_train)   {double :train}
+let(:station) {Station.new   }
+let(:a_train) {double :train }
 
 	it "should have no people when initialized" do
 		expect(station.people).to eq([])
@@ -36,15 +36,8 @@ let(:a_train)   {double :train}
 		expect(station.trains).to eq([])
 	end
 
-
-	#when the train stops then passengers should alight train
-	#when the train stops then passengers should get off of train
-	#the train can only leave when all the passengers have boarded the train
-
 end
 
-#Have a system which initializes a number of trains
-#Train will travel from station to station
-#Train will move at different intervals- use time
-#A coach of a train will hold up to 40 people
-#A train has a number of coaches
+
+
+
