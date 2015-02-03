@@ -71,16 +71,7 @@ describe Train do
 
 	it "the train should not leave until all the passengers have moved onto the train" do
 		train_in_station
-		allow(station).
+		allow(station)
 	end
-
-	#the train can only leave when all the passengers have boarded the train
 	
 end
-
-#Have a system which initializes a number of trains
-#Train will travel from station to station
-#Train will move at different intervals- use time
-#A coach of a train will hold up to 40 people
-#A train has a number of coaches
-#Module - should not allow a person to enter a train when it is not at the station
