@@ -1,48 +1,15 @@
-FAAST
-========
+#FAAST System
 
-Fast and Accessible Super Tube- ruby practice
+Week 1 weekend challenge at Maker's Academy.
 
-#CR Cards
+##Context
+This was the first weekend challenge at Maker's Academy. The challenge was to create a FAAST (Fast And Acessible Super Tube) system. There can be a number of trains inside the system. Trains can travel from station to station. Inside of a station, when the train stops, passengers alight and enter the carriages of the train. A Passenger touchs in at the station and touchs out at the destination station.  A passenger can only touch in a station if their account has more than 2 GBP. Each coach of a train can hold up to 40 passengers. Each train is made of a number of coaches.
 
-##Person Class
-it should:
-- tap in at the station
-- tap out at the station
-- move into the station
-- move out of the station
-- move onto a train
-- move off a train
+##Learning Objectives
+- Object-Oriented Programming
+- Object-Oriented Design
+- Test-Driven Development
 
-optional:
-- be able to add money to their oyster
-- require a £2 GBP minimum to get into the station
-
-it interacts with:
-- train
-- station
-
-##Train Class
-it should:
-- hold people
-- release people
-
-it interacts with:
-- station
-- people
-
-##Station Class
-it should:
-- hold people
-- release people
-
-it interacts with:
-- train
-- station
-
-##Tube Station
-it should:
-- maximum amount of trains
-
-it interacts with:
-- train
+##Technology Used
+- Ruby
+- Rspec
